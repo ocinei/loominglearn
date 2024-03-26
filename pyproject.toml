@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "loominglearn"
+version = "0.1.0"
+description = "A set of tools for analysing looming behavioural data"
+authors = ["hephaes <hephaes@connect.hku.hk>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pandas = "^2.2.1"
+numpy = "^1.26.4"
+matplotlib = "^3.8.3"
+scikit-learn = "^1.4.1.post1"
+plotly = "^5.20.0"
+scipy = "^1.12.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
